@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+html, body {font-family: 'Roboto Condensed', sans-serif;}
+.container {min-width: 84%;} 
+
+#top-menu {padding: 0; font-weight: bold;}
+#top-menu .btn {background: #fa9a2d; border: none; color: white; font-size: 1.8vw; margin-left: 35px;}
+#top-menu .btn:hover {background: #1c64b8;}
+#top-menu a {font-size: 1.8vw; color: #1c64b8;}
+#top-menu a:hover {color:  #fa9a2d;} 
+#top-menu i {margin-right: 7px; color: #1c64b8; font-size: 2.0vw;}
+
+#block1 {background: url('images/block1_bg.jpg') no-repeat; background-size: cover; padding-bottom: 20px;}
+#block1 .discount {background: rgba(255, 255, 255, 0.8); padding: 20px; margin-top: 35px; text-align: center;}
+#block1 .discount h3 {font-weight: bold; font-size: 2.2vw; color: #4b5157;} 
+#block1 .discount h3 span {color:  #C50024;}
+#block1 .discount h5 {font-size: 1.2vw; color: #1c64b8; line-height: 1.4em;  margin-top: 20px; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+#block1 .adress {background:rgba(28, 100, 184, 0.8); margin-top: 20px; text-align: center;padding: 8px;} 
+#block1 .adress a {color: white; font-size: 1.6vw; text-decoration: none; padding-top: 4px; }
+#block1 .adress a:hover {color:  #fa9a2d;}
+#block1 .adress h4 {color: white; font-size: 1.6vw; margin: 0; padding-top: 4px; }
+#block1 .adress i {color: white; margin-right: 7px; font-size: 1.6vw;}
+
+#block2 {margin-top: 20px; text-align: center;}
+#block2 .room {border: 3px solid  #1c64b8; padding: 20px;}
+#block2 .room h3  {font-weight: bold; font-size: 1.8vw; color: #4b5157; font-family: 'Open Sans', sans-serif;} 
+#block2 .room h5  {font-weight: bold; font-size: 1.3vw; color: #1c64b8; font-family: 'Open Sans', sans-serif;} 
+#block2 .offer {background: #1c64b8; padding-top: 3px; padding-bottom: 6px; margin-top: 25px; border-radius: 5px;}
+#block2 .offer a {color: white; font-size: 1.5vw; text-decoration: none;}
+#block2 .offer:hover {background:  #fa9a2d;}
+
+#block3 {margin-top: 20px; background: #cad9eb; padding: 20px;}
+#block3 img {width: 25vw;}
+#block3 .infrastructure {text-align: center; padding-top: 10px;}
+#block3 .infrastructure h3  {font-weight: bold; font-size: 2.6vw; color: #4b5157;} 
+#block3 .infrastructure ul {list-style-type: none; font-size: 2vw; color: #4b5157;padding-left: 0;}
+#block3 .infrastructure h5 {font-size: 1.6vw; color: #1c64b8; line-height: 1.4em;  margin-top: 20px; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+#block3 .infrastructure span {color:  #C50024;}
+#block3 .btn {font-size: 1.8vw; background:  #C50024; color: white; margin-top: 15px;}
+#block3 .btn:hover {background: #1c64b8;}
+
+#block4 {padding: 20px;}
+#block4 img {width: 25vw;}
+#block4 .guarantees {text-align: center; padding: 15px;}
+#block4 .guarantees h3  {font-weight: bold; font-size: 2.6vw; color: #4b5157;} 
+#block4 .guarantees ul {list-style-type: none; font-size: 2vw; color: #4b5157; padding-left: 0;}
+#block4 .btn {font-size: 1.8vw; background:  #C50024; color: white; margin-top: 15px;box-shadow: none;}
+#block4 .btn:hover {background: #1c64b8;}
+
+#block5 {background: url('images/block5_bg.jpg') no-repeat; background-size: cover; background-position: center;}
+#block5 .parking {background: rgba(0, 0, 0, 0.8); padding: 20px; margin: 35px 0; text-align: center;}
+#block5 .parking h3  {font-weight: bold; font-size: 2.6vw; color: white;} 
+#block5 .parking h4 {font-size: 2vw; color: white;line-height: 1.4em;  margin-top: 20px; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+#block5 .parking h5 {font-size: 1.7vw; color: #fa9a2d; line-height: 1.4em;  margin-top: 20px; font-weight: bold;}
+#block5 .parking h5 span  {color:  #C50024;}
+#block5 .btn {font-size: 1.8vw; background:  #C50024; color: white; margin-top: 15px; box-shadow: none;}
+#block5 .btn:hover {background: #1c64b8;}
+
+#footer {background: #1c64b8; padding: 0; color: white; font-weight: bold;}
+#footer .btn {background: #fa9a2d; border: none; color: white; font-size: 1.8vw; margin-left: 35px;}
+#footer .btn:hover {color: #1c64b8;}
+#footer a {color: white; font-size: 1.8vw;}
+#footer a:hover {color:  #fa9a2d;} 
+#footer i {margin-right: 7px; font-size: 2.0vw;}
+
+#back-to-top {cursor: pointer; position: fixed; bottom: 20px; left: 20px; color: white; background: #fa9a2d; border: none; display: none;} 
